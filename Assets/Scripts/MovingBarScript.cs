@@ -23,7 +23,6 @@ public class MovingBarScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         turn *= -1;
-        Debug.Log("E");
     }
 
 
